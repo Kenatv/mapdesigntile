@@ -52,3 +52,9 @@ I've decided to allow the zoom level of 10 to 14 to display the necessary amount
 - Tile 3 is a combined version of both the basemap and the data I've gathered. This time the park information has been added and displayed as green to show the green areas. This is a great decision on my part as it gives us a better idea of what our main target truly is.
 
 - Tile 4 is the final tile displaying the complete product. It has everything similar to tile 3, however, this time I've changed the city area to be light grey to display the mood I wish to set on this map as well as the green that have been shown. The text aren't displayed that well because of the layers, which needs to be fixed if I have more time. 
+
+---
+
+## AI use disclaimer
+
+AI have been used to help debug with the QGIS problem I had. I didn't know that I had to use the classic version of mapbox for the QGIS to work. 
