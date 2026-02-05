@@ -188,8 +188,14 @@
                 },
                 'source': 'tileset4'
             });
-
+            map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+            const scale = new mapboxgl.ScaleControl({
+                maxWidth: 100,
+                unit: 'imperial' // or 'metric'
+            });
+            map.addControl(scale, 'bottom-left');
         });
+
 
 
         // After the last frame rendered before the map enters an "idle" state.
